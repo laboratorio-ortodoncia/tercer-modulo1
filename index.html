@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laboratorio de Ortodoncia UAN</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://www.uan.edu.co/images/Sedes/Armenia/imagenes/SedeArmenia_B.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+
+    .header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+    }
+
+    .banner-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(4px);
+    }
+
+    .banner {
+      flex: 1 1 200px;
+      margin: 10px;
+      padding: 15px 20px;
+      text-align: center;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 8px;
+      color: white;
+      transition: transform 0.3s ease;
+    }
+
+    .banner:hover {
+      transform: translateY(-5px);
+    }
+
+    .banner1 { background-color: #002147; }  /* Azul oscuro */
+    .banner2 { background-color: #00BFFF; }  /* Azul celeste */
+    .banner3 { background-color: #007BFF; }  /* Azul eléctrico */
+
+    .links-section {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .links-section h2 {
+      color: #fff;
+      margin-bottom: 20px;
+    }
+
+    .links-section a {
+      display: inline-block;
+      margin: 10px 15px;
+      font-size: 1.1em;
+      color: #00BFFF;
+      text-decoration: none;
+      background-color: #fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .links-section a:hover {
+      background-color: #ddd;
+    }
+
+    @media (max-width: 600px) {
+      .header h1 {
+        font-size: 1.8em;
+      }
+      .banner {
+        font-size: 0.9em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Título principal -->
+  <div class="header">
+    <h1>LABORATORIO DE ORTODONCIA UAN</h1>
+  </div>
+
+  <!-- Barra horizontal con 3 banners -->
+  <div class="banner-bar">
+    <div class="banner banner1">LA IA ME SORPRENDIÓ POR</div>
+    <div class="banner banner2">DE LA IA ME PREOCUPA Y CREO QUE...</div>
+    <div class="banner banner3">MI NUEVO MUNDO CON IA</div>
+  </div>
+
+  <!-- Enlaces de apoyo -->
+  <div class="links-section">
+    <h2>Enlaces de Apoyo</h2>
+    <a href="https://laboratorio-ortodoncia.github.io/Ortodoncia1/" target="_blank">
+      Laboratorio Ortodoncia
+    </a>
+    <a href="https://emersonuan.github.io/firstwebpage/" target="_blank">
+      Página de Emerson
+    </a>
+  </div>
+
+</body>
+</html>
